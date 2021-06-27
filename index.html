@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive pricing component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin-top: 1.5rem;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <h1>Simple,traffic-based pricing</h1>
+        <h3>Sign-up for our 30-day trial. No credit card required</h3>
+      </header>
+      <aside class="card-wrapper">
+        <div class="top_sec">
+          <div class="card__pageviews">
+            <span>100k Pageviews</span>
+          </div>
+          <div class="card__price">
+            <span>$<span class="pricefix">16</span>.00</span>
+            <span class="month"> /month</span>
+          </div>
+        </div>
+        <div class="progress desktop">
+          <div class="progress-bar">
+            <input
+              type="range"
+              min="1"
+              max="5"
+              step="1"
+              value="3"
+              class="myrange"
+            />
+          </div>
+        </div>
+        <div class="monthly">
+          <span class="flex-item">Monthly Billing</span>
+          <label class="switch flex-item">
+            <input type="checkbox" name="" id="" />
+            <span class="slider"> </span>
+          </label>
+          <span class="flex-item">Yearly Billing</span>
+          <span class="discount flex-item">25% discount</span>
+        </div>
+        <div class="hr"></div>
+        <div class="start">
+          <ul class="start__list">
+            <li class="start__list--item">Unlimited websites</li>
+            <li class="start__list--item">100% data ownership</li>
+            <li class="start__list--item">Email reports</li>
+          </ul>
+          <button class="start-btn">Start my trial</button>
+        </div>
+      </aside>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/Afnanmk">Afnan Mk</a>.
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
