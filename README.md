@@ -6,4 +6,4 @@ A pricing component where users are able to:
 - See hover states for all interactive elements on the page
 - Use the slider and toggle to see prices for different page view numbers
 
-## UI is deigned by Frontend Mentor
+### UI is deigned by Frontend Mentor
